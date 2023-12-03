@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0%;
+}
+.formulaire{
+    display: flex;
+    background-image: url('../images/backgroundv2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center; /* Centre les éléments horizontalement (axe X) */
+    height: 620px;
+}
+.form{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border:2px solid grey;
+    border-radius: 10px;
+    height: 70%;
+    width: 35%;
+}
+h1{
+    color: #5f0959;
+    font-size: 45px;
+}
+.form-input{
+    display: flex;
+    background-color: aqua;
+    width: 75%;
+    height: 45px;
+    align-items:flex-start;
+    border-radius: 100px;
+    border: 3px;
+    border-color: chartreuse;
+}
+.form-input > input{
+    display: flex;
+    height: 100%;
+    border-radius: 100px;
+}
+.form-input > input:focus {
+    outline: none; /* Supprime la bordure de focus */
+}
+.form-input > i{
+    padding-right: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.input-form{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding-left: 20px; /* Ajustez la valeur de la marge à votre convenance */
+    box-sizing: border-box; /* Pour inclure la marge dans la largeur totale de l'élément */
+}
+.form > *{
+    display: flex;
+    height: 55px;
+    align-items: center;
+    margin-top: 25px;
+}
+#remeber-input{
+    margin-left: 7px;
+}
+.remeber-p{
+    display: flex;
+    justify-self: end;
+}
+.remeber-p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.remeber{
+    justify-self:start;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 1%;
+}
+.label-input:hover{
+    text-decoration: underline;
+}
+.button-input{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 10%;
+    background-color: white;
+    border-radius: 100px;
+    border-style: none;
+}
+.button-input:hover{
+    text-decoration: underline;
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-color: grey;
+}
+.Register-link{
+    text-decoration: none;
+    font-style: normal;
+    margin-left: 5px;
+}
+.Register-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
